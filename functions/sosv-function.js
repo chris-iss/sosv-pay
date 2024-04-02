@@ -1,3 +1,3 @@
-export function handler(event, context) {
+exports.handler = (event, context) => {
     console.log("EVENT:", event)
 }
